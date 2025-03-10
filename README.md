@@ -1,5 +1,7 @@
 # LLM hackathon
 
+[Slides](slides-1-monash.pdf)
+
 ## Setup
 
 You'll need the dev version of ellmer:
