@@ -4,11 +4,10 @@
 
 ## Setup
 
-You'll need the dev version of ellmer:
+You'll need the latest version of ellmer:
 
 ```r
-#| eval: false
-pak::pak("tidyverse/ellmer")
+pak::pak("ellmer")
 ```
 
 You'll also need to set up at least one chat provider. If you don't already have an API account (a paid subscription unfortunately doesn't count), we recommend either Claude or Gemini. Claude is cheap and good at R code, while gemini is free and good at videos. Follow the instructions below to configure one.
