@@ -1,6 +1,6 @@
 # LLM hackathon
 
-[Slides](slides-1-monash.pdf)
+[Slides](slides-2-ukraine.pdf)
 
 ## Setup
 
