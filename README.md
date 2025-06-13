@@ -20,7 +20,7 @@ You'll also need to set up at least one chat provider. If you don't already have
 1. `usethis::edit_r_environ()`.
 1. Add a new line containing: `ANTHROPIC_API_KEY={paste}`.
 1. Restart R.
-1. Check that `ellmer::chat_claude()$chat("Tell me a joke")` works.
+1. Check that `ellmer::chat_anthropic()$chat("Tell me a joke")` works.
 
 ### Gemini
 
@@ -29,4 +29,4 @@ You'll also need to set up at least one chat provider. If you don't already have
 1. `usethis::edit_r_environ()`
 1. Add a new line containing: `GOOGLE_API_KEY={paste}`
 1. Restart R.
-1. Check that `ellmer::chat_gemini()$chat("Tell me a joke")` works.
+1. Check that `ellmer::chat_google_gemini()$chat("Tell me a joke")` works.
