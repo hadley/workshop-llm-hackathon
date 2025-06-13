@@ -13,7 +13,7 @@ recipe <- "
 # Just instructions -----------------------------------------------------------
 # I find this most useful for brainstorming
 
-chat <- chat_claude("
+chat <- chat_anthropic("
   The user input contains a recipe. Extract a list of ingredients and
   return it in JSON format."
 )
@@ -24,7 +24,7 @@ chat$chat("EVEN FINER!!!")
 
 # Detailed description --------------------------------------------------------
 
-chat <- chat_claude("
+chat <- chat_anthropic("
   The user input contains a recipe. Extract a list of ingredients and return
   it in JSON format. It should be an array of objects, where each object has
   keys `item`, `quantity`, and `unit`. Put each object on one line of
@@ -34,7 +34,7 @@ chat$chat(recipe)
 
 # Example output ---------------------------------------------------------------
 
-chat <- chat_claude(r'(
+chat <- chat_anthropic(r'(
   The user input contains a recipe. Extract a list of ingredients and return
   it in JSON format.
 
@@ -58,7 +58,7 @@ type_ingredients <- type_array(items = type_object(
   unit = type_string(required = FALSE)
 ))
 
-chat <- chat_claude("
+chat <- chat_anthropic("
   The user input contains a recipe. Extract a list of ingredients
 ")
 chat$extract_data(recipe, type = type_ingredients)

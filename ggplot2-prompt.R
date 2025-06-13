@@ -5,5 +5,5 @@ diamonds_glimpse <- paste0(capture.output(dplyr::glimpse(ggplot2::diamonds)), co
 
 prompt <- interpolate_file("ggplot2-prompt.md", glimpse = diamonds_glimpse)
 
-chat <- chat_claude()
+chat <- chat_anthropic()
 chat$chat(prompt)
