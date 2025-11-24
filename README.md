@@ -1,7 +1,7 @@
 # LLM hackathon
 
-[Foundations](slides-3-south-africa-1.pdf)
-[Applications](slides-3-south-africa-2.pdf)
+* [Foundations](slides-3-south-africa-1.pdf)
+* [Applications](slides-3-south-africa-2.pdf)
 
 ## Setup
 
